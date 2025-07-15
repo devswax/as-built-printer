@@ -8,7 +8,6 @@ import win32print
 import subprocess
 
 def resource_path(relative_path):
-    """Accès aux ressources même en mode .exe"""
     try:
         base_path = sys._MEIPASS
     except AttributeError:
